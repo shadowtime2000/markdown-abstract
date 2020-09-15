@@ -14,8 +14,6 @@
     "out": "./docs",
     "theme": "default",
     "name": "markdown-abstract",
-    "hideGenerator": true,
-    "includeDeclarations": true,
-    "excludeExternals": true
+    "hideGenerator": true
   }
 }
