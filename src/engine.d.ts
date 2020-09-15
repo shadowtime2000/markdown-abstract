@@ -19,3 +19,13 @@ declare interface GithubFlavoredMarkdownSpecification
   autolink: AutoLinkMarkdownFeature;
   hardLineBreak: VoidMarkdownFeature;
 }
+
+declare interface DiscordMarkdownSpecification
+  extends BaseMarkdownSpecification {
+  underline: MarkdownFeature;
+  strikethrough: MarkdownFeature;
+  spoiler: MarkdownFeature;
+  codeBlock: CodeBlockMarkdownFeature;
+  inlineCode: MarkdownFeature;
+  blockQuote: MarkdownFeature;
+}
