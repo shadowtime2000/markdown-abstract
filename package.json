@@ -6,7 +6,8 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "npx tsc",
-    "test": "npm run build && mocha tests/** --reporter spec",
+    "test": "mocha tests/** --reporter spec",
+    "clean:test": "npx tsc && mocha tests/** --reporter spec",
     "prettier": "prettier --no-config --write .",
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
