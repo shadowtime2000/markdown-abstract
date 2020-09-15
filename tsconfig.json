@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "outDir": "./dist",
+    "target": "ESNext",
+    "declaration": true
+  },
+  "exclude": ["node_modules", "**/*.spec.ts"],
+  "include": ["src/**/*"],
+  "typedocOptions": {
+    "mode": "library",
+    "out": "./docs",
+    "theme": "default",
+    "name": "markdown-abstract",
+    "hideGenerator": true,
+    "includeDeclarations": true,
+    "excludeExternals": true
+  }
+}
