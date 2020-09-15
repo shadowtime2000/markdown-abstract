@@ -6,6 +6,8 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "action:build": "npx tsc --noEmit",
+    "action:check": "prettier --no-config --check .",
+    "action:lint": "eslint .",
     "build": "npx tsc",
     "test": "mocha tests/** --reporter spec",
     "clean:test": "npx tsc && mocha tests/** --reporter spec",
