@@ -12,7 +12,7 @@ jobs:
         with:
           node-version: '12.x'
       - name: Install dependencies
-        run: npm install
+        run: npm ci
       - name: Build documentation
         run: npm run docgen
       - name: Create .nojekyll
