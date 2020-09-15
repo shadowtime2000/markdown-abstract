@@ -1,4 +1,5 @@
 <img src="https://img.shields.io/npm/v/markdown-abstract?style=for-the-badge"><br />
+
 # markdown-abstract
 
 A simple and flexible tool to abstractly generate Markdown
