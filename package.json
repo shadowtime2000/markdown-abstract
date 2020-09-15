@@ -5,6 +5,7 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
+    "action:build": "npx tsc --noEmit",
     "build": "npx tsc",
     "test": "mocha tests/** --reporter spec",
     "clean:test": "npx tsc && mocha tests/** --reporter spec",
