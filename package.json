@@ -1,6 +1,6 @@
 {
   "name": "markdown-abstract",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A simple and flexible tool to abstractly generate Markdown",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -26,7 +26,7 @@
   "bugs": {
     "url": "https://github.com/shadowtime2000/markdown-abstract/issues"
   },
-  "homepage": "https://github.com/shadowtime2000/markdown-abstract#readme",
+  "homepage": "https://shadowtime2000.github.io/markdown-abstract",
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.1.1",
     "@typescript-eslint/parser": "^4.1.1",
