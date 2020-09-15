@@ -10,7 +10,7 @@
   "exclude": ["node_modules", "**/*.spec.ts"],
   "include": ["src/**/*"],
   "typedocOptions": {
-    "mode": "library",
+    "mode": "modules",
     "out": "./docs",
     "theme": "default",
     "name": "markdown-abstract",
