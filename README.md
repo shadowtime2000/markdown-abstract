@@ -9,9 +9,9 @@ A simple and flexible tool to abstractly generate Markdown
 ### Usage
 
 ```javascript
-const { GithubFlavoredMarkdownEngine } = require("markdown-abstract");
+const { GithubFlavoredEngine } = require("markdown-abstract");
 
-const engine = new GithubFlavoredMarkdownEngine();
+const engine = new GithubFlavoredEngine();
 
 engine.bold("Bold text here"); // **Bold text here**
 ```
